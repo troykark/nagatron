@@ -36,5 +36,4 @@ $time = [int](Read-Host "Time inbetween Notifications (mins)") * 60
 while($true){
     start-sleep -seconds $time
     show-notification "Heavens2Nagatroid" $content
-    write-host "loop"
 }
